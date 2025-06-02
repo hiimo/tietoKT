@@ -11,7 +11,6 @@ if(isset($_GET['koht'])) {
     $valitudkoht = $yhendus -> query($kohtparing);
     $row = mysqli_fetch_assoc($valitudkoht);
 
-    // lol head muutujanimes
     $tyybidd = "SELECT tyyp FROM tyybid";
     $tyybiddd = $yhendus -> query($tyybidd);
     $tyybid = [];
@@ -37,7 +36,7 @@ if(isset($_GET['koht'])) {
     <div class="container">
         <h1>muuda maja <?php echo $row['nimi']; ?>i</h1>
         <hr>
-        <a href="/KT/admin">siit saad tahagsi</a>
+        <a href="/KT/admin">siit saad tagasi</a>
         <br>
         <br>
         <form method="post">
