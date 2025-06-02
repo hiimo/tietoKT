@@ -93,7 +93,7 @@
         ?>
 
         <hr>
-        <h2>teised hinnangud sellele restole vms</h2>
+        <h2>teised hinnangud</h2>
         <?php
         $hinnangud_paring2 = "SELECT * FROM hinnangud WHERE id_koht = '$valitudkohtid'";
         $result_hinnangud = $yhendus -> query($hinnangud_paring2);
