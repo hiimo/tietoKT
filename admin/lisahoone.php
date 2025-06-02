@@ -26,9 +26,9 @@ while ($tyyp = $hoonetyybidparis -> fetch_assoc()) {
 </head>
 <body>
     <div class="container">
-        <h1> lisa asututs</h1>
+        <h1> lisa asutus</h1>
         <hr>
-        <a href="/KT/admin">siit tagasi</a>
+        <a href="/KT/admin">tagasi</a>
         <br>
         <br>
         <form method="post">
