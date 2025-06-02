@@ -105,7 +105,7 @@ if(isset($_GET['koht'])) {
                 echo "<b>" . $row["nimi"] . " " . $row["hinnang"] . "/10" . "<a href='kustutahinnang.php?kommentaar=" . $row["kommentaar"] . "'> X </a>" . "</b><br>" . $row["kommentaar"] . "<br> ";
             }
         } else {
-            echo "njetu hinnangud";
+            echo "ei ole hinnangud";
         }?>
         <?php $yhendus -> close(); ?>
     </div>
